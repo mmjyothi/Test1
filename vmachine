@@ -1,0 +1,11 @@
+[webserver]
+
+webserver color=red
+
+[control]
+
+controller ansible_connection=local color=blue
+
+[database]
+
+database
