@@ -1,0 +1,15 @@
+
+
+#!/usr/bin/ansible-playbook
+---
+
+ - name:            TestSains
+   hosts:           all
+   sudo:            true
+
+   vars_files:
+   - vars/global.yml
+
+   roles:
+   - { role: base }
+   - { role: web_app }

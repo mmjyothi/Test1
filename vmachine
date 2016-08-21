@@ -9,3 +9,7 @@ controller ansible_connection=local color=blue
 [database]
 
 database
+
+[loadbalancer]
+
+loadbalancer
